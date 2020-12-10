@@ -1,0 +1,22 @@
+What WoW understand:
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
+    <!-- the addon's functionality is defined in here -->
+</Ui>
+
+XML Tags:
+
+There are a few general notes that you need to know about concerning XML, particularly as it is used by WoW. The generalized format of a "tag" is:
+
+<tagname attribute="attribute value" anotherattribute="anotherattribute value"></tagname>
+
+- They must have zero o more attributes.
+- The tag is everything between the '<tagname' and the trailing '>'
+- The tag is closed by an "end tag" with the same name as the tag (i.e. '</tagname>')
+- Tagnames do not have spaces and ARE case sensitive
+- Everything between the tag and the end tag is the CONTENT of the tag. 
+- In the case where there is no content to a tag, the tag can be shorted to '<tagname /> instead of '<tagname></tagname>' though both version are valid.
+
+A complete tag with no content looks like:
+
+<tagname attribute="attribute value" anotherattribute="anotherattribute value"/>

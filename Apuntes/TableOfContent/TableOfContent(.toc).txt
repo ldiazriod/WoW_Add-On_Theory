@@ -1,0 +1,3 @@
+The lines starting with ## are called ".toc tags" and provide basic information about the AddOn.
+The other two lines (not starting with ##) tell WoW which files belong to the AddOn (here HelloWorld.lua and HelloWorld.xml).
+Lines starting with # (only one hash; not contained in the example above) are considered comments and are ignored by WoW.

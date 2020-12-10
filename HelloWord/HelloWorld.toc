@@ -1,0 +1,7 @@
+## Interface: 90002
+## Title: Hello World!
+## Notes: My first AddOn
+## Version: 1.0.0
+
+HelloWorld.lua
+HelloWorld.xml

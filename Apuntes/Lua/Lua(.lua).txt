@@ -1,0 +1,21 @@
+Functions:
+ - There are pre-defined functions provided by WoW. They called "API functions" (API = Application Programming Interface)
+ - You can make your own user-defined functions
+
+ Functions Declaration:
+
+ [local] function function_name(<zero or more arguments>)
+        --code
+ end
+
+- The [local] is an optional keyword that limits the visibility of the function to a particular scope.
+- The function_name is simply a name you make up so you can reference your function from other places in your AddOn.
+- The <zero or more arguments> are the way to pass information into the function. This is what gives functions their power. Each time you call the function, you can supply a different set of arguments and get different results based upon them.
+- The ... code ... is where the work gets done in a function. Here is where you do calculations, comparisons, call other functions, etc to get the task of the function done.
+- The end keyword simply marks the end of the definition of the function.
+
+Example: 
+
+function HelloWorld(self)
+    print("Hello World!");
+end
